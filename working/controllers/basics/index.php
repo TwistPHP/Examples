@@ -9,9 +9,10 @@
 
 	/*
 	 * --------------------------------
-	 * Register the Test controller for
-	 * all requests that start with the
-	 * URI '/' (the base for the site)
+	 * Register the 'Basics' controller
+	 * for all requests that start with
+	 * the URI '/' (which should be the
+	 * base for the site)
 	 * --------------------------------
 	 */
 	Twist::Route() -> controller( '/%', 'Basics' );
